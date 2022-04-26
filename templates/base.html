@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %} - Salary predictor app</title>
+    <style>
+        .message {
+            padding: 10px;
+            margin: 5px;
+            background-color: #f3f3f3
+        }
+        nav {
+            font-size: 3em;
+            margin-left: 50px;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        Convert your images to pencil sketches
+    </nav>
+    <hr>
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+</body>
+</html>
