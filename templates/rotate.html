@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <h1><a href="\">Upload new File</a></h1>
+    <img src="{{url_for('static', filename='file.png')}}">
+    <form method=post enctype="multipart/form-data">
+        <input type=submit value=convert>
+    </form>
+    
+{% endblock %}
